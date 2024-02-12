@@ -35,7 +35,7 @@ The Classification and Regression Trees (CART) algorithm is employed to categori
 
 ## How to Use
 
-Follow the steps outlined in the Jupyter notebook provided in this repository to perform the analysis on your own machine. Click [here](link-to-notebook) to access the notebook.
+Follow the steps outlined in the Jupyter notebook provided in this repository to perform the analysis on your own machine. Click [here](Workforce_Retention_Forecast.ipynb) to access the notebook.
 
 ## Data Dictionary
 
