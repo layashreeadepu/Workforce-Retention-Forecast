@@ -50,4 +50,3 @@ Follow the steps outlined in the Jupyter notebook provided in this repository to
 9. `salary_grade`: Salary earned by an employee.
 10. `department`: The department to which an employee belongs.
 
-Feel free to explore and modify the notebook to suit your specific requirements. Happy analyzing!
