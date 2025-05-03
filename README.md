@@ -47,7 +47,7 @@ Applied the **CART algorithm** to categorize loyalty and predict likelihood of r
 
 Open and run the Jupyter notebook in this repository to follow the complete churn prediction pipeline, including data visualization, model training, and evaluation.
 
-> 📓 [Click here to access the notebook](layashreeadepu/Workforce-Retention-Forecast/Workforce_Retention_Forecast.ipynb)
+> 📓 [Click here to access the notebook](/Workforce_Retention_Forecast.ipynb)
 
 ## 🗂️ Data Dictionary
 
