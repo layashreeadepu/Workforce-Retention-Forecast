@@ -1,52 +1,66 @@
-# Workforce Retention Forecast
+# 👩‍💼 Workforce Retention Forecast
 
-## Overview
+## 📌 Overview
 
-This GitHub repository contains a comprehensive analysis of employee churn rate prediction using data science techniques, specifically the Classification and Regression Trees (CART) algorithm. The project aims to help organizations identify potential employee resignations, understand the factors influencing loyalty or dissatisfaction, and ultimately improve retention strategies.
+This project presents a detailed analysis of employee churn using machine learning—specifically, the **Classification and Regression Trees (CART)** algorithm. It aims to help organizations predict which employees are likely to resign, uncover the drivers behind dissatisfaction, and shape better retention strategies.
 
-## Introduction
+## 🎯 Motivation
 
-In today's dynamic work environment, understanding and predicting employee churn is crucial for maintaining a healthy and productive workforce. This project explores the application of HR analytics and machine learning to predict employee churn rates, providing actionable insights for businesses.
+In high-growth and evolving organizations, workforce stability is a critical asset. This project stems from the need to:
 
-## HR Analytics and Churn Rate Prediction
+* Prevent burnout by defining working condition thresholds
+* Assign projects aligned with employee strengths
+* Launch initiatives aligned with career goals
+* Identify hidden high performers and sources of churn
 
-HR analytics involves collecting and analyzing employee data to gain insights into workforce trends. Predicting employee churn rates is essential for:
+By leveraging HR analytics and predictive modeling, companies can proactively enhance job satisfaction, reduce turnover, and retain key talent.
 
-1. Generalizing standards for working conditions to avoid burnout.
-2. Assigning projects aligned with employees' strengths for better performance.
-3. Launching initiatives that align with career aspirations for higher satisfaction.
-4. Evaluating performance to uncover sources of talent.
+## 📂 Project Components
 
-By utilizing data-driven approaches, organizations can retain talented employees, enhance job satisfaction, foster company loyalty, and reduce hiring and retention costs.
+### 1. 🔍 Business Case Definition
 
-## Churn Rate Prediction Using CART Algorithm
+Formulated a clear business objective to predict employee churn and visualize the attributes that influence satisfaction and loyalty.
 
-The Classification and Regression Trees (CART) algorithm is employed to categorize loyalty and identify employees likely to resign. This analysis goes beyond predicting churn rates; it aims to identify the factors contributing to employee dissatisfaction or loyalty.
+### 2. 📊 Data Exploration & Preparation
 
-### Steps in the Analysis
+Used a simulated HR dataset with both continuous and categorical features:
 
-1. **Business Case**: Formulating the business case around predicting employee churn and visualizing the attributes influencing loyalty and dissatisfaction.
+* Satisfaction level
+* Last evaluation
+* Number of projects
+* Average monthly hours
+* Time at the company
+* Work accident indicator
+* Promotions in the last 5 years
+* Salary grade
+* Department
 
-2. **Data Exploration and Preparation**: Exploring a simulated dataset containing various measures to predict employee churn. The data includes continuous and categorical variables such as satisfaction level, last evaluation, number of projects, average monthly hours, time spent in the company, work accidents, promotions, salary grade, and department.
+### 3. 🧹 Data Visualization
 
-3. **Data Visualization**: Plotting key variables to better understand the distribution of employees across departments, salary grades, and the number of resignations.
+Analyzed the distribution of churn across different salary grades, departments, and workload variables using bar plots, density plots, and correlation heatmaps.
 
-4. **Splitting Data into Training and Validation Sets**: Understanding the importance of training and validation sets in machine learning. The dataset is split to train the algorithm and evaluate its performance on a representative dataset.
+### 4. 🤖 Predictive Modeling
 
-## How to Use
+Applied the **CART algorithm** to categorize loyalty and predict likelihood of resignation. Evaluated model accuracy using training-validation split and interpreted decision paths.
 
-Follow the steps outlined in the Jupyter notebook provided in this repository to perform the analysis on your own machine. Click [here](Workforce_Retention_Forecast.ipynb) to access the notebook.
+## 🧪 How to Use
 
-## Data Dictionary
+Open and run the Jupyter notebook in this repository to follow the complete churn prediction pipeline, including data visualization, model training, and evaluation.
 
-1. `satisfaction_level`: Satisfaction ratings of an employee's job.
-2. `last_evaluation`: Rating received by an employee over their job performance during the last evaluation (scale 0 to 1).
-3. `number_projects`: Number of projects an employee is involved in.
-4. `average_monthly_hours`: Average number of hours spent by an employee at the office per month.
-5. `time_spent_company`: Number of years an employee has spent in the company.
-6. `work_accident`: Binary indicator (0 or 1) representing whether there was an accident during the employee's stay.
-7. `promotion_last_5_years`: Number of promotions an employee received in the last 5 years.
-8. `resigned`: Binary indicator (0 or 1) representing whether the employee resigned from the company.
-9. `salary_grade`: Salary earned by an employee.
-10. `department`: The department to which an employee belongs.
+> 📓 [Click here to access the notebook](./Workforce_Churn_Cart_Model.ipynb)
+
+## 🗂️ Data Dictionary
+
+| Feature                  | Description                                            |
+| ------------------------ | ------------------------------------------------------ |
+| `satisfaction_level`     | Employee’s job satisfaction rating                     |
+| `last_evaluation`        | Most recent performance evaluation score (0–1 scale)   |
+| `number_projects`        | Number of projects assigned to the employee            |
+| `average_monthly_hours`  | Monthly average office hours                           |
+| `time_spent_company`     | Years spent at the company                             |
+| `work_accident`          | Whether the employee had a workplace accident (0 or 1) |
+| `promotion_last_5_years` | Whether the employee was promoted in the last 5 years  |
+| `resigned`               | Binary flag indicating resignation (1) or active (0)   |
+| `salary_grade`           | Salary level (e.g., low, medium, high)                 |
+| `department`             | Department to which the employee belongs               |
 
